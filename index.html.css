@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG_JvzmLdb2bGwlx6cm4VmzNFp6fmmcBF8qCd3ALiVPQ&s" type="image/x-icon">
+    <title>This is a Assainment-02</title>
+    <style>
+        #h3{
+            color: rgb(243, 108, 59);
+        }
+        body{
+            padding: 20px 20px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav li {
+             list-style: none;
+             margin-right: 51px;
+        }
+        nav a {
+            text-decoration: none;
+            color: rgb(34, 29, 29);
+        }
+        #h2{
+            height: 200px;
+        }
+        #images{
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStASHt53Bixn1Xtmud9iXqyKFr5JdWOBA2UojoiKfQXg&s');
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            background-size: 700px;
+            height: 700px;
+        }
+        select{
+            border: 3px solid rgb(238, 232, 232);
+            border-radius: 10px;
+            row-gap: 10px;
+        }
+        .Rabbi{
+            background-color: rgb(250, 147, 74);
+            border-radius: 10px;
+            border: 10px solid rgb(250, 147, 74);
+        }
+       .Pahar{
+        border-radius: 10px;
+        font-size: 3rem;
+       }
+       .benar{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStASHt53Bixn1Xtmud9iXqyKFr5JdWOBA2UojoiKfQXg&s');
+        border-radius: 10px;
+            background-repeat: no-repeat;
+            background-size: 700px;
+            height: 700px;
+       }
+        .Rayhan{
+            background-image: url('https://t3.ftcdn.net/jpg/01/46/56/78/360_F_146567837_c6Y6q0382DrpEVvVPTvOR1AlvVbC2qmV.jpg');
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            background-size: 700px;
+            height: 700px;
+        }
+        .Rafi{
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOkBSY6Cemxvjg-uYm3Ayr6JPG1sQx_kPZj9udUWyv6A&s');
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            background-size: 700px;
+            height: 700px;
+        }
+        .Raim{
+            background-image: url('https://media.istockphoto.com/id/490673902/photo/roundabout-hi-jakarta-landmark-at-night.jpg?s=612x612&w=0&k=20&c=bv93EvZ7xJSCxfPXFbHKW_3VMi3lPmMB4Yym8fh_bfE=');
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            background-size: 700px;
+            height: 700px;
+        }
+        .Arafat{
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4PDnkeNp0k6UOEDDK5XnyomzxiTBbEeAreKctrE_k7g&s');
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            background-size: 700px;
+            height: 700px;
+        }
+        .Najim{
+            background-image: url('https://media.istockphoto.com/id/1218494508/photo/bangladesh-in-virtual-lockdown-as-coronavirus-fight-flares.jpg?s=612x612&w=0&k=20&c=LedXzQ07vu3eqxMl4zIiP7cHs9tJLCfl-9HuTLq1fq0=');
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            background-size: 700px;
+            height: 700px;
+        }
+        .Muhid{
+            background-image: url('https://t4.ftcdn.net/jpg/05/17/09/57/360_F_517095709_TTVKc9Jlk34g2HyAS1W6isKRChFGzx40.jpg');
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            background-size: 700px;
+            height: 700px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Hero <span id="h3">Travel</span></h3>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Packages</a></li>
+                <li><a href="">Testimonial</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a><li>
+            </ul>
+        </nav>
+        <div id="images">
+            <h2 id="h2">Explore Your Travel</h2>
+            <p id="p">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio <br> enim ac quis sqpien urna eu phasellus.</p>
+            <select>
+                <option>Where go</option>
+            </select>
+            <select>
+                <option>When</option>
+                <option>go</option> 
+            </select>
+            <select>
+                <option>Select Type</option>
+                <option>Style Type</option>
+            </select>
+            <select>
+                <option><button id="button">Find Now</button></option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <h2>Out Popular Tours</h2>
+            <p>
+                Dolor sit amet consectetur. Diam volutpat habitasse pharetra adio sit massa. Sodales dictumst nec nibh pellentesque.
+            </p>
+            <nav>
+                <ul>
+                    <li>Tempus euismod lacus dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at.</li>
+                    <li>Adipiscing ornare pellentesque mauris volutpat toetor vitae platea porta lacus. lectus suspendisse nullam.</li>
+                    <li>Accumsan eget et turpos praesent lorem egestas enim elit bibendum.Risus at in.</li><br>
+                </ul>
+            </nav>
+            <p>
+                Amet consectetur. Vulputate commodo felis molestie risus<br> ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis.<br> Habitant adipiscing risus natoque natoque. Id bilbendum nunc senectus semper tincidunt.
+            </p><br>
+            <button class="Rabbi">Read More</button>
+        </div>
+        <img class="Pahar"src="https://images.pexels.com/photos/65614/coast-beach-rock-stones-65614.jpeg?auto=compress&cs=tinysrgb&w=400">
+        <br>
+        <div>
+            <h2>Choose Your Destination</h2>
+            <p>
+                Dolor sit amet consectur.Diam volutpat neque habitasse pharetra odio massa. Sodales dictumst nec nibh pellentesque.
+            </p>
+            <br>
+            
+            <img src="https://t4.ftcdn.net/jpg/05/17/09/57/360_F_517095709_TTVKc9Jlk34g2HyAS1W6isKRChFGzx40.jpg">
+        </div>
+    <div class="Rifat">
+        <div class="benar">
+            <h2>Maldives</h2>
+        </div>
+        <div class="Rayhan">
+            <h2>indonesia</h2>
+        </div>
+        <br>
+         <div class="Rafi">
+            <h2>Srilanka</h2>
+         </div>
+         <div class="Raim">
+            <h2>North America</h2>
+         </div>
+         <div class="Arafat">
+             <h2>Kashmir</h2>
+         </div>
+         <br>
+         <div class="Najim">
+            <h2>Banhladesh</h2>
+         </div>
+         <div class="Muhid">
+             <h2>Bandarban</h2>
+         </div>
+    </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
